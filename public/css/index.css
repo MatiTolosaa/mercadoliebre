@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.section-main { 
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 12px
+}
+main {
+    background-color: #ebebeb;
+}
+.logo img{
+    display: block;
+    width: 20vw;
+}
+.barra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner{
+    width: 100%;
+}
+.ultima-visita{
+    padding: 30px 0px 30px 5vw;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 1.5vh;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+.burger-menu{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2vh;
+}
+.burger-menu i{
+    font-size: 1.5rem;
+    color: white;
+    background-color: #1259c3;
+    border-radius: 10px;
+    padding: 0.9rem 1rem 0.9rem 1rem;
+}
+#cuotas{
+    display: block;
+    font-weight: normal;
+    text-align: center;
+    padding: 1rem;
+}
+header {
+background-color: #EAC926;
+} 
+.hipervinculos {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    text-align: left;
+    padding: 3vh 15px 15px 15px;
+}
+.hipervinculos ul li {
+    list-style: none;
+}
+.envio{
+    color: #39b54a;
+    justify-content: left;
+}
+.envio i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+.envio i:hover{
+    transform: rotate(-90deg);
+    transition: 1s;
+}
+.precios{
+    display: block;
+    font-size: 18px;
+}
+.descuento{
+    display: block;
+    color: #39b54a;
+}
+.descripcion{
+    display: block;
+    padding: 15px 0px 0px 0px;
+}
+.emoticon{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.page-header {
+color: #3F3F40;
+}
+.text {
+    color: #929295;
+    padding-bottom: 8vh;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.caja{
+    display: block;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 20px 0px 5px 0px;
+}
+.cajita{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 5vw;
+}
+.articulo{
+    display: block;
+    padding-bottom: 10px;
+    margin: 0px 0px 1rem 0px;
+    background-color: white;
+}
+
+footer{
+    text-align: center;
+}
+.emoticon:hover{
+    color:#48B1EC;
+    transition: 0.60s;
+}
+@media (max-width: 600px){
+    .logo img {
+        width: 35vw;
+    }
+    .lista{
+    display: none;
+    }
+    .descripcion{
+        display: none;
+    }
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .ultima-visita{
+        padding: 30px 0px 30px 0px;
+        text-align: center;
+    }
+}
+@media (min-width: 768px){
+    .burger-menu{
+    display: none;
+    }
+    .articulo{
+        display: inline-block;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 45%;
+    }
+    .text{
+        width: 40%;
+    }
+}
+@media (min-width: 1024px){
+    .logo img{
+    width: 15vw;
+    }
+    .articulo{
+        width: 24%;
+    }
+    .text{
+        width: 30%;
+    }
+}
