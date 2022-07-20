@@ -108,6 +108,25 @@ padding: 1%;
     margin: 10px 0px 50px 0px;
     align-items: center;
 }
+.emoticon{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.page-header {
+color: #3F3F40;
+}
+.text {
+    color: #929295;
+    margin-bottom: 3vh;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    text-align: center;
+}
 @media (max-width: 600px){
     .logo img {
         width: 35vw;
@@ -131,9 +150,16 @@ padding: 1%;
     .form-register {
         width: 60%;
     }
+    .text{
+        width: 40%;
+    }
 }
+
 @media (min-width: 1024px){
     .logo img{
     width: 15vw;
+    }
+    .text{
+        width: 30%;
     }
 }
